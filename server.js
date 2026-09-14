@@ -12,7 +12,10 @@ connectDB();
 const app = express();
 
 // Middleware
-app.use(cors());
+app.use(cors({
+    origin: "https://grievance-frontend-lhrj4os5o-my-project-6cfd.vercel.app",
+    credentials: true
+}));
 app.use(express.json());
 
 // Routes
