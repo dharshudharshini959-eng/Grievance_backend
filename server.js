@@ -15,7 +15,8 @@ const app = express();
 const allowedOrigins = [
     "https://grievance-frontend-lhrj4os5o-my-project-6cfd.vercel.app",
     "http://localhost:5173",
-    "http://localhost:3000"
+    "http://localhost:3000",
+    "https://dharshudharshini959-eng.github.io/Grievance_frontend/"
 ];
 
 app.use(cors({
